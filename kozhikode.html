@@ -14,7 +14,7 @@
             text-align: center;
         }
         .container {
-            max-width: 600px;
+            max-width: 400px;
             margin: 30px auto;
             padding: 20px;
             background: #ffffff;
@@ -22,11 +22,11 @@
             border-radius: 12px;
         }
         .logo {
-            max-width: 120px;
+            max-width: 100px;
             margin-bottom: 15px;
         }
         h1 {
-            font-size: 28px;
+            font-size: 24px;
             color: #0056b3;
             margin-bottom: 10px;
         }
@@ -34,33 +34,29 @@
             font-size: 18px;
             font-weight: 400;
             color: #555;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
-        .teacher-list {
-            width: 100%;
-            border-collapse: collapse;
+        h4 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0073e6;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #0073e6;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .phone-list {
+            list-style: none;
+            padding: 0;
             margin-top: 10px;
         }
-        .teacher-list th, .teacher-list td {
+        .phone-item {
             padding: 12px;
-            text-align: left;
             font-size: 18px;
-        }
-        .teacher-list th {
-            background: #0073e6;
-            color: white;
             font-weight: bold;
-        }
-        .teacher-list td {
+            color: #333;
             border-bottom: 1px solid #ddd;
-        }
-        .teacher-list a {
-            color: #0073e6;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .teacher-list a:hover {
-            text-decoration: underline;
         }
         .back-btn {
             display: inline-block;
@@ -89,37 +85,16 @@
         <img src="cgac-logo.jpg" alt="CGAC Logo" class="logo">
         <h1>WE HELP</h1>
         <h3>KOZHIKODE</h3>
+        <h4>Phone Numbers</h4>
         
-        <table class="teacher-list">
-            <tr>
-                <th>Name</th>
-                <th>Phone</th>
-            </tr>
-            <tr>
-                <td>Deepa Chithralayam</td>
-                <td><a href="tel:+919496492624">9496492624</a></td>
-            </tr>
-            <tr>
-                <td>Sheeja Chandran</td>
-                <td><a href="tel:+919447540667">9447540667</a></td>
-            </tr>
-            <tr>
-                <td>Geetha Nair</td>
-                <td><a href="tel:+919446279977">9446279977</a></td>
-            </tr>
-            <tr>
-                <td>Afsal</td>
-                <td><a href="tel:+918447673083">8447673083</a></td>
-            </tr>
-            <tr>
-                <td>Lima</td>
-                <td><a href="tel:+919400041975">9400041975</a></td>
-            </tr>
-            <tr>
-                <td>Priyadarshini</td>
-                <td><a href="tel:+91844658771">844658771</a></td>
-            </tr>
-        </table>
+        <ul class="phone-list">
+            <li class="phone-item">9496492624</li>
+            <li class="phone-item">9447540667</li>
+            <li class="phone-item">9446279977</li>
+            <li class="phone-item">8447673083</li>
+            <li class="phone-item">9400041975</li>
+            <li class="phone-item">844658771</li>
+        </ul>
 
         <a href="index.html" class="back-btn">Back to District List</a>
         <div class="footer">An Initiative by CGAC</div>
